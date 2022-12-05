@@ -1,0 +1,121 @@
+.inner {
+  padding: 80px 0 10px;
+}
+.infoTitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 51px;
+  color: #363838;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.itemBox {
+  position: relative;
+  display: flex;
+  align-items: end;
+  border-bottom: 2px solid rgba(54, 56, 56, 0.9);
+}
+.itemBox::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(54, 56, 56, 1);
+}
+.item {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #363838;
+  margin-left: 13px;
+}
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #5a5a5a;
+  padding-top: 13px;
+}
+.rightItem {
+  position: relative;
+  margin-left: 320px;
+}
+.rightItem::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(54, 56, 56, 1);
+  height: 20px;
+  width: 2px;
+}
+.bottomItem {
+  position: relative;
+  padding-top: 30px;
+  margin-left: 305px;
+}
+.bottomItem::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 2px;
+  background-color: rgba(54, 56, 56, 1);
+}
+@media (max-width: 540px) {
+  .infoTitle {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 855px) {
+  .rightItem {
+    margin-left: 240px;
+  }
+  .bottomItem {
+    margin-left: 250px;
+  }
+}
+@media (max-width: 772px) {
+  .itemBox::after,
+  .rightItem::after,
+  .bottomItem::after {
+    display: none;
+  }
+  .itemBox {
+    border-bottom: none;
+  }
+  .bottomItem {
+    padding-top: 0;
+    margin-left: 0;
+  }
+  .rightItem {
+    margin-left: 0;
+  }
+  .itemBox {
+    flex-wrap: wrap;
+  }
+  .item {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+  }
+}

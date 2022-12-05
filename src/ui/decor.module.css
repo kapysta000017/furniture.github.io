@@ -1,0 +1,43 @@
+.inner {
+  padding: 170px 0 155px;
+  background-image: url(../images/contentImg/decorFon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+.title {
+  position: relative;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  color: #363838;
+  max-width: 730px;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+}
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 1px;
+  background-color: #6d7278;
+}
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5a5a5a;
+  max-width: 540px;
+}
+@media (max-width: 580px) {
+  .title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
