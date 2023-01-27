@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/furniture.github.io/static/css/main.50f60ade.css",
+    "main.js": "/furniture.github.io/static/js/main.20bd53ff.js",
+    "static/media/3.jpg": "/furniture.github.io/static/media/3.b490283b726438563eb1.jpg",
+    "static/media/decorFon.jpg": "/furniture.github.io/static/media/decorFon.cbab9ff3c962bcbdc3ee.jpg",
+    "static/media/1.jpg": "/furniture.github.io/static/media/1.6c5256c8edf88b28fc61.jpg",
+    "static/media/0.jpg": "/furniture.github.io/static/media/0.c8679f0a7cfc9f85a25d.jpg",
+    "static/media/chair.jpg": "/furniture.github.io/static/media/chair.84c3f520eb36b81fe675.jpg",
+    "static/media/2.jpg": "/furniture.github.io/static/media/2.62cefab0db6870947ea1.jpg",
+    "static/media/collection.jpg": "/furniture.github.io/static/media/collection.bda296acfa78ba833272.jpg",
+    "static/media/collection1.jpg": "/furniture.github.io/static/media/collection1.d11d189bb1f84af57e2d.jpg",
+    "static/media/sofa.svg": "/furniture.github.io/static/media/sofa.34098181a789aeef512a9e0e9f3d19ad.svg",
+    "static/media/page.svg": "/furniture.github.io/static/media/page.938cb11ef8d0be4ae9eb6a205bc806a1.svg",
+    "static/media/works2.svg": "/furniture.github.io/static/media/works2.76af25bbd1aa5ac19dda75bf205b8a8d.svg",
+    "static/media/instagram.svg": "/furniture.github.io/static/media/instagram.3ee9eb0b862e1a8e13db.svg",
+    "static/media/whatsapp.svg": "/furniture.github.io/static/media/whatsapp.b2dc2b7cbd32dbb30ca6.svg",
+    "index.html": "/furniture.github.io/index.html",
+    "static/media/Pinterest.svg": "/furniture.github.io/static/media/Pinterest.00039bf61f85418c14ef.svg",
+    "static/media/icon_menu.svg": "/furniture.github.io/static/media/icon_menu.fd1abf56491d9ab93772150cb01f2709.svg",
+    "static/media/youtube.svg": "/furniture.github.io/static/media/youtube.88ebb1fdb55f792ae6da.svg",
+    "static/media/email.svg": "/furniture.github.io/static/media/email.698c86b023970e345163.svg",
+    "static/media/facebook.svg": "/furniture.github.io/static/media/facebook.d0d508953f23535594ab.svg",
+    "static/media/close.svg": "/furniture.github.io/static/media/close.64f09d760e8936f5907a62abff40b422.svg",
+    "main.50f60ade.css.map": "/furniture.github.io/static/css/main.50f60ade.css.map",
+    "main.20bd53ff.js.map": "/furniture.github.io/static/js/main.20bd53ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50f60ade.css",
+    "static/js/main.20bd53ff.js"
+  ]
+}
